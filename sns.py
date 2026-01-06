@@ -3,7 +3,7 @@ import pyinstrument
 infilename = "input.txt"
 outfilename = "result_py.txt"
 
-# Bubble sort + linear search
+# Bubble sort and linear search
 @pyinstrument.profile() # Decorator for profiling the function
 def sort_n_search(arr, n, val):
     for i in range(n):
