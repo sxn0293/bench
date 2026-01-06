@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 #define INFILENAME "input.txt"
 #define OUTFILENAME "result_c.txt"
 
